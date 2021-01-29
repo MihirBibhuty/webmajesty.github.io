@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <!-- AOS library CDN link -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- <style>
+
+    .mihir{
+      background-image: url(image.jpg);
+      background-size: contain;
+    }
+
+  </style> -->
+
+
+</head>
+<body>
+
+  <!-- navbar starts -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <a class="navbar-brand" href="#"><span class="badge badge-light"><h4>Mihir</h4></span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action 1</a>
+            <a class="dropdown-item" href="#">Action 2</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Action 3</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+
+    </div>
+
+  </nav>
+  <!-- navbar ends -->
+
+
+	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;
+	
+  
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-outline-info btn-lg" data-toggle="modal" data-target="#myModal">
+    Sign Up
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Sign Up</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label><i class="fas fa-user fa-2x"></i> User Name: </label>
+              <input type="text" class="form-control" required>
+            </div>
+                        <div class="form-group">
+              <label><i class="fas fa-envelope fa-2x"></i> Email: </label>
+              <input type="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label><i class="fas fa-lock fa-2x"></i> Password: </label>
+              <input type="password" class="form-control" required>
+            </div>
+          </form>
+        </div>
+
+
+        
+        <!-- Modal footer -->
+        <div class="modal-footer justify-content-around">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Sign Up</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+  <!-- carousel starts -->
+  <div class="container-fluid-sm container-fluid-xl container-lg container-md">
+<div id="my-carousel" class="carousel slide" data-ride="carousel">
+   <ol class="carousel-indicators">
+     <li class="active" data-target="#my-carousel" data-slide-to="0" aria-current="location"></li>
+     <li data-target="#my-carousel" data-slide-to="1"></li>
+     <li data-target="#my-carousel" data-slide-to="2"></li>
+   </ol>
+   <div class="carousel-inner">
+     <div class="carousel-item active">
+       <img class="d-block w-100" src="image3.jpg" alt="">
+       <div class="carousel-caption d-none d-md-block">
+         <h5>This is a superb website created by me...</h5>
+         <p>Please appriciate my work.....
+
+          <br>
+            <h3 class="text-primary">Click Here to Sign Up</h3>
+
+              <!-- Button to Open the Modal -->
+    <div class="container">
+      <button type="button" class="btn btn-outline-info btn-lg" data-toggle="modal" data-target="#myModal">
+        Sign Up
+      </button>
+    
+      <!-- The Modal -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Sign Up</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label><i class="fas fa-user fa-2x"></i> User Name: </label>
+                  <input type="text" class="form-control" required>
+                </div>
+                            <div class="form-group">
+                  <label><i class="fas fa-envelope fa-2x"></i> Email: </label>
+                  <input type="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label><i class="fas fa-lock fa-2x"></i> Password: </label>
+                  <input type="password" class="form-control" required>
+                </div>
+              </form>
+            </div>
+    
+    
+            
+            <!-- Modal footer -->
+            <div class="modal-footer justify-content-around">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Sign Up</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+
+         </p>
+       </div>
+     </div>
+     <div class="carousel-item">
+       <img class="d-block w-100" src="image4.jpg" alt="">
+       <div class="carousel-caption d-none d-md-block">
+         <h5>This is a superb website created by me...</h5>
+         <p>Please appriciate my work.....
+
+          <br>
+            <h3 class="text-warning">Click Here to Sign Up</h3>
+
+              <!-- Button to Open the Modal -->
+    <div class="container">
+      <button type="button" class="btn btn-outline-warning btn-lg" data-toggle="modal" data-target="#myModal">
+        Sign Up
+      </button>
+    
+      <!-- The Modal -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Sign Up</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label><i class="fas fa-user fa-2x"></i> User Name: </label>
+                  <input type="text" class="form-control" required>
+                </div>
+                            <div class="form-group">
+                  <label><i class="fas fa-envelope fa-2x"></i> Email: </label>
+                  <input type="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label><i class="fas fa-lock fa-2x"></i> Password: </label>
+                  <input type="password" class="form-control" required>
+                </div>
+              </form>
+            </div>
+    
+    
+            
+            <!-- Modal footer -->
+            <div class="modal-footer justify-content-around">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Sign Up</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+         </p>
+      </div>
+     </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="image6.jpg" alt="">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>This is a superb website created by me...</h5>
+          <p>Please appriciate my work.....
+
+
+            <br>
+            <h3 class="text-light">Click Here to Sign Up</h3>
+
+              <!-- Button to Open the Modal -->
+    <div class="container">
+      <button type="button" class="btn btn-outline-light btn-lg" data-toggle="modal" data-target="#myModal">
+        Sign Up
+      </button>
+    
+      <!-- The Modal -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Sign Up</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label><i class="fas fa-user fa-2x"></i> User Name: </label>
+                  <input type="text" class="form-control" required>
+                </div>
+                            <div class="form-group">
+                  <label><i class="fas fa-envelope fa-2x"></i> Email: </label>
+                  <input type="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label><i class="fas fa-lock fa-2x"></i> Password: </label>
+                  <input type="password" class="form-control" required>
+                </div>
+              </form>
+            </div>
+    
+    
+            
+            <!-- Modal footer -->
+            <div class="modal-footer justify-content-around">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Sign Up</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+          </p>
+       </div>
+     </div>
+  </div>
+
+   <a class="carousel-control-prev" href="#my-carousel" data-slide="prev" role="button">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="sr-only">Previous</span>
+   </a>
+   <a class="carousel-control-next" href="#my-carousel" data-slide="next" role="button">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="sr-only">Next</span>
+   </a>
+ </div>
+</div>
+</div>
+  <!-- carousel ends -->
+
+  <br><br>
+
+  <!-- jumbotron starts -->
+  <div class="jumbotron jumbotron-fluid mihir" data-aos="flip-left">
+    <div class="container">
+      <h1 class="display-3"><div data-aos="fade-down"> Mihir Bibhuty</div></h1>
+      <p class="lead"><div data-aos="zoom-in"> This is the creator of this website :)</div></p>
+      <hr class="my-2">
+      <p><div data-aos="zoom-out"> Hello everybody, I am Mihir Bibhuty, the creator of this website..... <br> Please appreciate my work..... <br> Hope this website looks awesome to you.....</div></p>
+      <p class="lead">
+        <div data-aos="fade-up"><a class="btn btn-primary btn-lg" href="#" role="button">Click Here to go to top</a></div>
+      </p>
+    </div>
+  </div>
+  <!-- jumbotron ends -->
+  
+<br><br>
+
+
+<!-- nav starts -->
+<center>
+  
+  <div class="container">
+    <h2><div data-aos="zoom-in-down"> Content of the website <span class="badge badge-primary">Special...</span></div></h2>
+    <br>
+    <!-- Nav pills -->
+    <div data-aos="zoom-in-up">
+    <ul class="nav nav-pills nav-justified" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="pill" href="#home">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="pill" href="#menu1">Menu</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dropdown</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Link 1</a>
+          <a class="dropdown-item" href="#">Link 2</a>
+          <a class="dropdown-item" href="#">Link 3</a></div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="pill" href="#menu2">Payment Form</a>
+      </li>
+    </ul>
+  </div>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div id="home" class="container tab-pane active"><br>
+        <h3><div data-aos="zoom-in"> this is <span class="badge badge-primary">ABOUT ME</span> page...</div></h3>
+        <p>
+          <div data-aos="flip-right" class="card bg-light" style="width: 18rem; background-color: rgba(208, 214, 200, 0.726) !important;">
+            <img class="card-img-top" src="image2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Mihir Bibhuty</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio possimus provident laboriosam mollitia ad commodi.</p>
+              <div class="text-warning">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+             </div>
+             <br>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </p>
+
+      </div>
+      <div id="menu1" class="container tab-pane fade"><br>
+        <h3><div data-aos="zoom-in-up">this is <span class="badge badge-primary">MENU</span> page...</div></h3>
+        <p><div data-aos="fade-up">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus nulla incidunt iusto quae animi aliquid delectus! Consequuntur ea nisi vel eos architecto sunt excepturi sequi impedit? Commodi repudiandae eum, itaque, cumque dicta rem vero aspernatur soluta ratione culpa, tenetur accusamus neque voluptatum expedita et quidem. Reprehenderit, ratione dolorum optio ut deleniti animi officia velit temporibus hic, neque itaque, tempore delectus molestias expedita vitae? Corrupti perferendis in possimus unde. Vitae corporis similique iste magnam consectetur. Eligendi provident magni blanditiis eum consequuntur accusantium? Nisi non doloremque fugiat enim, esse obcaecati labore nostrum quibusdam at vero. Debitis laudantium voluptatem ipsa? Voluptatibus, maxime quibusdam.</div></p>
+      </div>
+
+      <div id="menu2" class="container tab-pane fade"><br>
+        <h3>this is <span class="badge badge-primary">REGISTRATION</span> page... <span class="badge badge-danger">Free!!!</span></h3> 
+        <p><br><br>
+
+          <!-- Form Starts  -->
+
+         <div class="container" style="background-color: rgba(208, 214, 200, 0.726) !important;">
+          
+          <u><h2 style="text-align: center;"><div data-aos="zoom-in-up">Registration</div></h2></u>
+          <hr><br><br>
+
+            <form style="text-align: left;">
+                <div class="form-row">
+                  <div class="col-md-4 mb-3">
+                    <label for="validationDefault01">First name</label>
+                    <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="First Name" required>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <label for="validationDefault02">Last name</label>
+                    <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="Last Name" required>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <label for="validationDefaultUsername">Username</label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                      </div>
+                      <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="form-group">
+                  <fieldset>
+                    <legend>Gender</legend>
+                    
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <label class="form-check-label" for="inlineRadio1">Male</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                      <label class="form-check-label" for="inlineRadio2">Female</label>
+                    </div>
+        
+                  </fieldset>
+                </div>
+      
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address 1</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Address 1">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Address 2">
+            </div>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="validationDefault03">City</label>
+                    <input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <label for="validationDefault04">State</label>
+                    <input type="text" class="form-control" id="validationDefault04" placeholder="State" required>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <label for="validationDefault05">Zip</label>
+                    <input type="text" class="form-control" id="validationDefault05" placeholder="Zip" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputContactNo">Contact Number</label>
+                    <input type="number" class="form-control" id="inputAddress" placeholder="Contact Number">
+                  </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label" for="invalidCheck2">
+                      I Agree to the terms and conditions
+                    </label>
+                  </div>
+                </div>
+                <center>
+                  <button class="btn btn-info btn-lg" type="submit">Register</button> &nbsp; &nbsp;
+                  <span class="badge badge-primary">OR</span>
+                   <!-- Modal Starts  -->
+                  
+                    <!-- Button to Open the Modal -->
+                &nbsp; &nbsp; <button type="button" class="btn btn-outline-info btn-lg" data-toggle="modal" data-target="#myModal">
+                  Sign Up
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                    
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Sign Up</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <form>
+                          <div class="form-group">
+                            <label><i class="fas fa-user fa-2x"></i> User Name: </label>
+                            <input type="text" class="form-control" required>
+                          </div>
+                                      <div class="form-group">
+                            <label><i class="fas fa-envelope fa-2x"></i> Email: </label>
+                            <input type="email" class="form-control" required>
+                          </div>
+                          <div class="form-group">
+                            <label><i class="fas fa-lock fa-2x"></i> Password: </label>
+                            <input type="password" class="form-control" required>
+                          </div>
+                        </form>
+                      </div>
+                </center>
+              </form>
+              <br>
+            </div>
+            <!-- Form Ends -->
+
+        </p>
+      </div>
+
+    </div>
+  </div>
+</center>
+<!-- nav ends   -->
+
+<br><br>
+
+
+   <!-- icon starts -->
+<div class="row">
+<div class="col-sm-6">
+  <div class="container">  
+    <h1> Did you Loved the Webpage <i class="fas fa-heart text-danger"></i></h1>
+    <p><h3>Or just Liked it: <i class="fas fa-thumbs-up text-warning"></i></p> </h3>
+  </div>
+    
+  <div class="container">
+    <p>Here are some Other Symbols whose meaning I don't know:</p>
+    <i class="fas fa-cloud text-success"></i>
+    <i class="fas fa-coffee text-success"></i>
+    <i class="fas fa-car text-success"></i>
+    <i class="fas fa-file text-success"></i>
+    <i class="fas fa-bars text-success"></i>
+  </div>
+</div>
+  <!-- icon ends -->
+
+
+  <!-- Modal Starts  -->
+  <div class="col-sm-6"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+      <!-- Button to Open the Modal -->
+    <!-- <div data-aos="fade-down"> -->
+  <button type="button" class="btn btn-outline-info btn-lg" data-toggle="modal" data-target="#myModal">
+    Sign Up
+  </button>
+    <!-- </div> -->
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Sign Up</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label><i class="fas fa-user fa-2x"></i> User Name: </label>
+              <input type="text" class="form-control" required>
+            </div>
+                        <div class="form-group">
+              <label><i class="fas fa-envelope fa-2x"></i> Email: </label>
+              <input type="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label><i class="fas fa-lock fa-2x"></i> Password: </label>
+              <input type="password" class="form-control" required>
+            </div>
+          </form>
+        </div>
+        
+
+<br><br>
+
+
+  <!-- AOS library CDN link  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 220,
+      duration: 1000,
+    });
+  </script>
+
+</body>
+</html>
