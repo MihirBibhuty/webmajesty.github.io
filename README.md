@@ -1,0 +1,1 @@
+# webmajesty.github.io
